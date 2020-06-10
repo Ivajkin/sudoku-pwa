@@ -1,0 +1,12 @@
+.block {
+    width: 3 * 32px;
+    height: 3 * 32px;
+
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    margin-top: -1px;
+    margin-right: -1px;
+    margin-bottom: -1px;
+    margin-left: -1px;
+}
