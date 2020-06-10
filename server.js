@@ -186,10 +186,11 @@ function startServer() {
   // Handle requests for static files
   app.use(express.static('public'));
 
+  const port = process.env.PORT || '8000';
   // Start the server
-  return app.listen('8000', () => {
+  return app.listen(port, () => {
     // eslint-disable-next-line no-console
-    console.log('Local DevServer Started on port 8000...');
+    console.log(`Local DevServer Started on port ${port} ...`);
   });
 }
 
