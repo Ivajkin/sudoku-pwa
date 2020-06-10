@@ -6,7 +6,8 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "build": "cd ./sudoku-pwa-angular && ng build"
+    "build": "cd ./sudoku-pwa-angular && ng build",
+    "preinstall": "npm install -g angular-cli"
   },
   "dependencies": {
     "express": "^4.16.4",
